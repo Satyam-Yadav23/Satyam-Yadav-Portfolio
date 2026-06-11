@@ -1,9 +1,11 @@
 import { FaLightbulb, FaPaintBrush, FaCode, FaReact, FaServer, FaMobileAlt, FaTools, FaNodeJs, FaStripe, FaVuejs, FaFire, FaDatabase, FaCloud, FaRobot, FaHtml5, FaCss3 } from 'react-icons/fa';
 
-import profileImg from '../assets/profile.avif';
+import profileImg from '../assets/profile1.png';
 import projectImg1 from '../assets/project1.png';
 import projectImg2 from '../assets/project2.avif';
 import projectImg3 from '../assets/project3.avif';
+import schoolImg from '../assets/sfps logo.png';
+import collegeImg from '../assets/aktu logo.png';
 import { FaCss } from 'react-icons/fa6';
 
 export const assets = {
@@ -11,6 +13,8 @@ export const assets = {
     projectImg1,
     projectImg2,
     projectImg3,
+    schoolImg,
+    collegeImg
 }
 
 export const aboutInfo = [
@@ -95,10 +99,4 @@ export const projects = [
         demo: "#",
         code: "#",
     },
-]
-
-export const contactInfo = [
-    {
-
-    }
 ]
